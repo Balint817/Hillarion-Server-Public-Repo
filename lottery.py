@@ -1,49 +1,4 @@
-"""
-Type your name in a new line, followed by 5 numbers, from 1 to 3.
-The order of these numbers matter.
-After you've done that, just leave the fee of 1 iron ingot in the chest along with the book.
-Every day I'll come get the book and announce the results.
-Each time nobody wins the prize, the prize will increase.
-"""
 
-"""
-This book is where you need to put your name and numbers!
-Use the format:
-first, your name, then a semicolon, then the numbers seperated by a single space. In my case, this would be:
-Balint817;1 2 3 1 2
-If you're done with that, write your name on the next page
-"""
-
-"""
-First => all 5 numbers
-Second => 4 numbers
-Third => 3 numbers
-
-Current prizes:
-
-First prize:
-Roughly 5 diamonds (20000 Re)
-
-Second prize:
-Roughly 1 diamond (4250 Re)
-
-Third prize:
-Roughly 5 gold
-(1000 Re)
-
-P.S.: "Re" is just a non-existent measure I use for calculations and such.
-Easier to code conversion from one value to multiple, than conversion from multiple to multiple, ya know? I'm lazy.
-"""
-
-
-
-"""
-If nobody wins a prize, then all of the IV that has been gained will be added to the prize pool
-Starting values: 
- - 22500
- - 4250
- - 1025
-"""
 
 current_prizes = [65769, 33297, 5750]
 
