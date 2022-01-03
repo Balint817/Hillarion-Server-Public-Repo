@@ -150,9 +150,9 @@ else:
                         l = [i[1] for i in lst].index(rounding_sort[1])
                         lst[l] = (lst[l][0]+1,rounding_sort[1])
                     except ValueError:
-                        lst.append((1, rounding_sort[idx-1][1]))
+                        lst.append((1, rounding_sort[1]))
                 else:
-                    lst.append((1, rounding_sort[idx-1][1]))
+                    lst.append((1, rounding_sort[1]))
             break
         if price[0] <= x:
             if (k:=(x//price[0]).__trunc__()):
