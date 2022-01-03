@@ -1,6 +1,6 @@
 
 
-current_prizes = [65769, 33297, 5750]
+current_prizes = [22500, 4250, 1025]
 
 from random import randint
 
